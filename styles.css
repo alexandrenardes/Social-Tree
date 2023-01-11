@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: gotham, arial, helvetica, sans-serif;
+    color: #d78ced;
+    background: #fbfbec;
+}
+
+.container, .links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container{
+    margin-top: 5%;
+}
+
+.profile > img{
+    border: 2px solid #d78ced;
+    padding: 3px;
+}
+
+.username{
+    margin: 1%;
+}
+
+.links{
+    align-items: center;
+}
+
+.links > a{
+    border: 2px solid #d78ced;
+    margin: 5px;
+    padding: 10px;
+    width: 50vh;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icons{
+    margin: 3%;
+}
+
+.icons > a {
+    margin: 2%;
+}
+
+.links > a:hover{
+    background-color: #d78ced;
+    color: #ffffff;
+    width: 55vh;
+    transition: 0.2s;
+}
