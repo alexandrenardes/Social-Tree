@@ -41,6 +41,7 @@ body{
     border-radius: 5px;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #d78ced;
 }
 
 .icons{
@@ -57,3 +58,5 @@ body{
     width: 55vh;
     transition: 0.2s;
 }
+
+
